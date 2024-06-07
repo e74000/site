@@ -29,7 +29,7 @@ html {
     transition: all .5s ease-out;
 }
 .links a:hover {
-    color: #e74000;
+    color: #8054f0;
     filter: blur(0.74px);
 }
 .footer {
