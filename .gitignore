@@ -1,0 +1,4 @@
+generator/venv/
+*.pyc
+latent-content-viewer/node_modules
+latent-content-viewer/dist/*
