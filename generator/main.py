@@ -11,10 +11,35 @@ import re
 from embedding import embed_with_clip, reduce_to_3d
 
 def clear_output_dir(output_dir):
-    if os.path.exists(output_dir):
-        shutil.rmtree(output_dir)
-    os.makedirs(os.path.join(output_dir, 'content'))
-    os.makedirs(os.path.join(output_dir, 'nodes'))
+    content_dir = os.path.join(output_dir, 'content')
+    nodes_dir = os.path.join(output_dir, 'nodes')
+    nodes_json_file = os.path.join(output_dir, 'nodes.json')
+
+    # Clear content of the content directory
+    if os.path.exists(content_dir):
+        for filename in os.listdir(content_dir):
+            file_path = os.path.join(content_dir, filename)
+            if os.path.isfile(file_path) or os.path.islink(file_path):
+                os.unlink(file_path)
+            elif os.path.isdir(file_path):
+                shutil.rmtree(file_path)
+    else:
+        os.makedirs(content_dir)
+
+    # Clear content of the nodes directory
+    if os.path.exists(nodes_dir):
+        for filename in os.listdir(nodes_dir):
+            file_path = os.path.join(nodes_dir, filename)
+            if os.path.isfile(file_path) or os.path.islink(file_path):
+                os.unlink(file_path)
+            elif os.path.isdir(file_path):
+                shutil.rmtree(file_path)
+    else:
+        os.makedirs(nodes_dir)
+
+    # Delete nodes.json file if it exists
+    if os.path.exists(nodes_json_file):
+        os.remove(nodes_json_file)
 
 def load_markdown_files(input_path):
     md_files = []
