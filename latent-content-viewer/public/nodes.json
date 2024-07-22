@@ -1,0 +1,96 @@
+{
+  "diffusion_frontend_thing.md": {
+    "embedding": [
+      3.6987321376800537,
+      0.279479444026947,
+      21.823122024536133
+    ],
+    "filetype": "markdown",
+    "metadata": {
+      "links": [
+        "diffusion_frontend_thing.png"
+      ],
+      "tags": []
+    },
+    "path": "/nodes/diffusion_frontend_thing.html",
+    "decorativePath": "/nodes/diffusion_frontend_thing.md"
+  },
+  "main.md": {
+    "embedding": [
+      4.101146221160889,
+      -0.5956129431724548,
+      21.627941131591797
+    ],
+    "filetype": "markdown",
+    "metadata": {
+      "links": [
+        "netbanner.png",
+        "about_this_website.md",
+        "diffusion_frontend_thing.md",
+        "pylon.png"
+      ],
+      "tags": []
+    },
+    "path": "/nodes/main.html",
+    "decorativePath": "/nodes/main.md"
+  },
+  "about_this_website.md": {
+    "embedding": [
+      4.284235000610352,
+      0.34388071298599243,
+      21.118925094604492
+    ],
+    "filetype": "markdown",
+    "metadata": {
+      "links": [],
+      "tags": []
+    },
+    "path": "/nodes/about_this_website.html",
+    "decorativePath": "/nodes/about_this_website.md"
+  },
+  "netbanner.png": {
+    "embedding": [
+      2.7195065021514893,
+      1.1508768796920776,
+      21.801998138427734
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 3495,
+      "height": 1310,
+      "file_size": 7957654
+    },
+    "path": "/content/netbanner.png",
+    "decorativePath": "/nodes/netbanner.png"
+  },
+  "diffusion_frontend_thing.png": {
+    "embedding": [
+      2.2431633472442627,
+      0.271404504776001,
+      22.05392074584961
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 3272,
+      "height": 2160,
+      "file_size": 2066099
+    },
+    "path": "/content/diffusion_frontend_thing.png",
+    "decorativePath": "/nodes/diffusion_frontend_thing.png"
+  },
+  "pylon.png": {
+    "embedding": [
+      2.5204520225524902,
+      0.5296826958656311,
+      21.234859466552734
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 4096,
+      "height": 2730,
+      "file_size": 10697643
+    },
+    "path": "/content/pylon.png",
+    "decorativePath": "/nodes/pylon.png"
+  }
+}

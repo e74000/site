@@ -1,0 +1,10 @@
+plotly
+scikit-learn
+pillow
+matplotlib
+transformers
+torch
+markdown2
+json5
+umap-learn
+Pygments

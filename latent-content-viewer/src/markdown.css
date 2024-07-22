@@ -1,0 +1,278 @@
+/* markdown.css */
+:root {
+  --background: #1c1c1c;
+  --foreground: #f7f6ec;
+  --cursor: #eccf4f;
+  --selectionBackground: #165776;
+  --color0: #343835;
+  --color8: #585a58;
+  --color1: #ce3e60;
+  --color9: #722235;
+  --color2: #7bb75b;
+  --color10: #385927;
+  --color3: #e8b32a;
+  --color11: #77592e;
+  --color4: #4c99d3;
+  --color12: #135879;
+  --color5: #a57fc4;
+  --color13: #5f4190;
+  --color6: #389aac;
+  --color14: #19444c;
+  --color7: #f9faf6;
+  --color15: #b1b5ae;
+  --selectionForeground: #1c1c1c;
+}
+
+.popup-content {
+  color: var(--foreground);
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+  border-radius: 0;
+}
+
+.popup-content p {
+  padding-left: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+.popup-content h1,
+.popup-content h2,
+.popup-content h3,
+.popup-content h4,
+.popup-content h5,
+.popup-content h6 {
+  color: var(--cursor);
+  border-bottom: 1px solid var(--color0);
+  padding-bottom: 0.25em;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+  padding-left: 0.5em;
+}
+
+.popup-content h1 {
+  font-size: 1.5em;
+}
+
+.popup-content h2 {
+  font-size: 1.3em;
+}
+
+.popup-content h3 {
+  font-size: 1.1em;
+}
+
+.popup-content ol,
+.popup-content ul {
+  padding-left: 1em;
+  margin: 10px 0;
+  list-style-position: inside;
+}
+
+.popup-content ol {
+  list-style-type: decimal;
+}
+
+.popup-content ul {
+  list-style-type: disc;
+}
+
+.popup-content li {
+  margin-bottom: 0.5em;
+  color: var(--foreground);
+}
+
+.popup-content li ol,
+.popup-content li ul {
+  margin-bottom: 0;
+}
+
+.popup-content ol > li::marker,
+.popup-content ul > li::marker {
+  color: var(--color3);
+}
+
+.popup-content li:has(input[type="checkbox"].task-list-item-checkbox) {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+
+.popup-content li:has(input[type="checkbox"].task-list-item-checkbox) .task-list-item-checkbox {
+  margin-right: 1em;
+  appearance: none;
+  width: 0.8em;
+  height: 0.8em;
+  border: 1px solid var(--color3);
+  background-color: transparent;
+  position: relative;
+}
+
+.popup-content li:has(input[type="checkbox"].task-list-item-checkbox) .task-list-item-checkbox:checked {
+  background-color: transparent;
+  border-color: var(--color3);
+}
+
+.popup-content li:has(input[type="checkbox"].task-list-item-checkbox) .task-list-item-checkbox:checked::after {
+  content: "×";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--color3);
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.popup-content li:has(input[type="checkbox"].task-list-item-checkbox) .task-list-item-checkbox:disabled {
+  background-color: transparent;
+  border-color: var(--color3);
+}
+
+.popup-content a {
+  color: var(--color5);
+  cursor: pointer;
+}
+
+.popup-content a:hover {
+  color: var(--color13);
+}
+
+.popup-content p code {
+  background-color: var(--background);
+  border: 1px solid var(--color0);
+  color: var(--color1);
+  padding: 2px 4px;
+  font-size: 0.85em;
+  white-space: pre-wrap;
+}
+
+.popup-content pre {
+  background-color: var(--background);
+  color: var(--color1);
+  border-top: 1px dashed var(--color0);
+  border-bottom: 1px dashed var(--color0);
+  padding: 10px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  font-size: 0.85em;
+  margin: 0 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.popup-content pre code {
+  display: block;
+  width: 100%;
+  white-space: pre;
+}
+
+.popup-content blockquote {
+  border-left: 1px solid var(--color5);
+  padding-left: 10px;
+  margin: 10px 0;
+  color: var(--color13);
+}
+
+.popup-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.popup-content th,
+.popup-content td {
+  border-bottom: 1px solid var(--color11);
+  padding: 0.25em;
+  text-align: left;
+}
+
+.popup-content th {
+  background-color: var(--color3);
+  color: var(--background);
+}
+
+.popup-content td {
+  color: var(--foreground);
+}
+
+.popup-content p:has(img) {
+  padding: 0;
+  margin: 0;
+}
+
+.popup-content img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5em;
+}
+
+.popup-content s {
+  text-decoration: none;
+  color: var(--color1);
+  filter: blur(1px);
+}
+
+.popup-content .admonition {
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 1px solid var(--color5);
+  background-color: var(--color13);
+  color: var(--foreground);
+}
+
+.popup-content .admonition.attention {
+  border-left-color: var(--color4);
+  background-color: var(--color12);
+}
+
+.popup-content .admonition.caution {
+  border-left-color: var(--color3);
+  background-color: var(--color11);
+}
+
+.popup-content .admonition.danger,
+.popup-content .admonition.error {
+  border-left-color: var(--color1);
+  background-color: var(--color9);
+}
+
+.popup-content .admonition.hint,
+.popup-content .admonition.tip {
+  border-left-color: var(--color2);
+  background-color: var(--color10);
+}
+
+.popup-content .admonition.important,
+.popup-content .admonition.note,
+.popup-content .admonition.warning {
+  border-left-color: var(--color3);
+  background-color: var(--color11);
+}
+
+.popup-content .footnotes {
+  padding-top: 10px;
+}
+
+.popup-content .footnotes hr {
+  border: 0;
+  border-top: 1px solid var(--color5);
+}
+
+.popup-content .footnotes ol {
+  padding-left: 1.5em;
+  margin: 10px 0;
+  list-style-position: inside;
+}
+
+.popup-content .footnotes li {
+  margin-bottom: 0.5em;
+  list-style-type: decimal;
+}
+
+.popup-content sup {
+  font-size: 0.8em;
+}
