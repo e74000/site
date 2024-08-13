@@ -1,9 +1,25 @@
 {
+  "reads_ur_emails.md": {
+    "embedding": [
+      16.22606086730957,
+      13.081565856933594,
+      9.067481994628906
+    ],
+    "filetype": "markdown",
+    "metadata": {
+      "links": [
+        "oh_fuck_what_now.png"
+      ],
+      "tags": []
+    },
+    "path": "/nodes/reads_ur_emails.html",
+    "decorativePath": "/nodes/reads_ur_emails.md"
+  },
   "diffusion_frontend_thing.md": {
     "embedding": [
-      22.368650436401367,
-      1.5888490676879883,
-      4.522253036499023
+      16.61147117614746,
+      13.150754928588867,
+      7.539506435394287
     ],
     "filetype": "markdown",
     "metadata": {
@@ -17,9 +33,9 @@
   },
   "main.md": {
     "embedding": [
-      22.901615142822266,
-      0.8667060732841492,
-      4.232387065887451
+      16.316139221191406,
+      12.987238883972168,
+      8.228797912597656
     ],
     "filetype": "markdown",
     "metadata": {
@@ -36,9 +52,9 @@
   },
   "about_this_website.md": {
     "embedding": [
-      21.835834503173828,
-      0.9849206805229187,
-      5.058756351470947
+      16.71999168395996,
+      12.384886741638184,
+      8.195568084716797
     ],
     "filetype": "markdown",
     "metadata": {
@@ -50,9 +66,9 @@
   },
   "netbanner.png": {
     "embedding": [
-      20.49423599243164,
-      0.954153299331665,
-      4.030230522155762
+      14.915464401245117,
+      12.289517402648926,
+      7.753414630889893
     ],
     "filetype": "image",
     "metadata": {
@@ -65,9 +81,9 @@
   },
   "diffusion_frontend_thing.png": {
     "embedding": [
-      20.7405948638916,
-      1.349758505821228,
-      4.595966339111328
+      14.63036060333252,
+      12.334099769592285,
+      8.594539642333984
     ],
     "filetype": "image",
     "metadata": {
@@ -78,11 +94,26 @@
     "path": "/content/diffusion_frontend_thing.png",
     "decorativePath": "/nodes/diffusion_frontend_thing.png"
   },
+  "oh_fuck_what_now.png": {
+    "embedding": [
+      14.884941101074219,
+      11.690106391906738,
+      8.014477729797363
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 749,
+      "height": 417,
+      "file_size": 653349
+    },
+    "path": "/content/oh_fuck_what_now.png",
+    "decorativePath": "/nodes/oh_fuck_what_now.png"
+  },
   "pylon.png": {
     "embedding": [
-      20.51424789428711,
-      0.730863630771637,
-      4.867931365966797
+      15.38105297088623,
+      11.729973793029785,
+      8.53232479095459
     ],
     "filetype": "image",
     "metadata": {
