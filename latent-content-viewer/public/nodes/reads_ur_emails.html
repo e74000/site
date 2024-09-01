@@ -1,8 +1,10 @@
-<p><img src="/content/oh_fuck_what_now.png" alt="oh_fuck_what_now.png" /></p>
+<p><img src="/content/tower_banner.png" alt="tower_banner.png" /></p>
 
-<h1 id="reads_ur_emails">reads_ur_emails</h1>
+<h1 id="thing-that-reads-your-emails">thing that reads your emails</h1>
 
-<p>i realised a while ago that i am basically incapable of checking my emails. so instead of investing the (like a min per day max) effort required to actually look at my emails, i thought "why don't i spend like 17hrs writing an automatic email summarisation bot?".1</p>
+<p>so i realised a while ago that i am basically incapable of checking my emails...</p>
+
+<p>instead of investing the (like a minute per day tops) effort required to actually look at my emails, i thought "why don't i spend like 17hrs writing an automatic email summarisation bot?"</p>
 
 <p>you can see this project on <a href="https://github.com/e74000/reads_ur_emails">github</a></p>
 
@@ -19,7 +21,7 @@
 <p>the scheduler takes a set of tasks, each of which can define their own timing rules. currently there are several predefined timing rules for it:</p>
 
 <ul>
-<li><em>once</em>: runs a task once, if for some reason you are bored of regular infinite loops and want to use this instead you can use <code>.Once().Forever().Blocking()</code>.</li>
+<li><em>once</em>: runs a task once.</li>
 <li><em>every</em>: runs at a set interval.</li>
 <li><em>random</em>: runs at a random inteval in a set range.</li>
 <li><em>daily</em>: runs daily at a specific time.</li>
@@ -37,4 +39,4 @@
 
 <p>it supports adding/deleting tasks, error handling including panics and logging (via <code>slog</code>)</p>
 
-<p>i thought it was kind of neat so i might make it into its own library at some point. if you want to use it, drop me a dm on twitter and can move it into its own package.</p>
+<p>i thought it was kind of neat so i might make it into its own library at some point. if you want to use it, drop me a dm on twitter and i can move it into its own package.</p>

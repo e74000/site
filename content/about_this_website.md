@@ -1,4 +1,4 @@
-<br>
+![[mirror_banner.png]]
 
 # about this website
 
@@ -24,5 +24,4 @@ there's not really much point to doing this, but i thought it was neat so i did 
 
 ## roadmap
 
-- i'm working to get embeddable WASM programs onto this site, so i can upload some visualisers and stuff.
 - i want to start doing some more photography/art again, and post that stuff here too.

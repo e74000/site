@@ -25,7 +25,7 @@ def embed_with_clip(texts, images):
     return text_embeddings.cpu().detach().numpy(), image_embeddings.cpu().detach().numpy()
 
 # Dimensionality reduction to 3D
-def reduce_to_3d(embeddings, method="pca"):
+def reduce_to_3d(embeddings, method="pca", fit_to_origin=True, max_distance=5):
     if method == "pca":
         reducer = PCA(n_components=3)
         reduced_embeddings = reducer.fit_transform(embeddings)
@@ -44,4 +44,16 @@ def reduce_to_3d(embeddings, method="pca"):
         print("Reduced embeddings to 3D space using Isomap")
     else:
         raise ValueError(f"Unsupported dimensionality reduction method: {method}")
+    
+    if fit_to_origin:
+        # Center the embeddings at the origin
+        mean_embedding = np.mean(reduced_embeddings, axis=0)
+        reduced_embeddings -= mean_embedding
+        
+        # Scale the embeddings so that the furthest point is at max_distance from the origin
+        max_dist = np.max(np.linalg.norm(reduced_embeddings, axis=1))
+        scale_factor = max_distance / max_dist
+        reduced_embeddings *= scale_factor
+        print(f"Centered embeddings on the origin and scaled so the maximum distance from the origin is {max_distance}.")
+    
     return reduced_embeddings

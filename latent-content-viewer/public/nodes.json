@@ -1,49 +1,87 @@
 {
-  "reads_ur_emails.md": {
+  "cube.md": {
     "embedding": [
-      16.22606086730957,
-      13.081565856933594,
-      9.067481994628906
+      0.17161870002746582,
+      -0.3961195647716522,
+      -0.5604109168052673
     ],
     "filetype": "markdown",
     "metadata": {
       "links": [
-        "oh_fuck_what_now.png"
+        "cloud_banner.png"
+      ],
+      "tags": []
+    },
+    "path": "/nodes/cube.html",
+    "decorativePath": "/nodes/cube.md"
+  },
+  "reads_ur_emails.md": {
+    "embedding": [
+      4.494645118713379,
+      2.1693992614746094,
+      0.30310505628585815
+    ],
+    "filetype": "markdown",
+    "metadata": {
+      "links": [
+        "tower_banner.png"
       ],
       "tags": []
     },
     "path": "/nodes/reads_ur_emails.html",
     "decorativePath": "/nodes/reads_ur_emails.md"
   },
-  "diffusion_frontend_thing.md": {
+  "asteroids.md": {
     "embedding": [
-      16.61147117614746,
-      13.150754928588867,
-      7.539506435394287
+      -0.022052697837352753,
+      -0.4943816661834717,
+      -2.549130439758301
     ],
     "filetype": "markdown",
     "metadata": {
       "links": [
-        "diffusion_frontend_thing.png"
+        "berlin_banner.png"
       ],
       "tags": []
     },
-    "path": "/nodes/diffusion_frontend_thing.html",
-    "decorativePath": "/nodes/diffusion_frontend_thing.md"
+    "path": "/nodes/asteroids.html",
+    "decorativePath": "/nodes/asteroids.md"
+  },
+  "photos.md": {
+    "embedding": [
+      -3.6335437297821045,
+      -1.424270749092102,
+      -0.038302868604660034
+    ],
+    "filetype": "markdown",
+    "metadata": {
+      "links": [
+        "pylon.png",
+        "pylon_white.png",
+        "mirror.png",
+        "tower_banner.png",
+        "cloud.png"
+      ],
+      "tags": []
+    },
+    "path": "/nodes/photos.html",
+    "decorativePath": "/nodes/photos.md"
   },
   "main.md": {
     "embedding": [
-      16.316139221191406,
-      12.987238883972168,
-      8.228797912597656
+      1.115021824836731,
+      -0.098199263215065,
+      -0.07369233667850494
     ],
     "filetype": "markdown",
     "metadata": {
       "links": [
         "netbanner.png",
         "about_this_website.md",
-        "diffusion_frontend_thing.md",
-        "pylon.png"
+        "reads_ur_emails.md",
+        "photos.md",
+        "asteroids.md",
+        "cube.md"
       ],
       "tags": []
     },
@@ -52,13 +90,15 @@
   },
   "about_this_website.md": {
     "embedding": [
-      16.71999168395996,
-      12.384886741638184,
-      8.195568084716797
+      0.577277660369873,
+      0.17932851612567902,
+      -0.41499069333076477
     ],
     "filetype": "markdown",
     "metadata": {
-      "links": [],
+      "links": [
+        "mirror_banner.png"
+      ],
       "tags": []
     },
     "path": "/nodes/about_this_website.html",
@@ -66,9 +106,9 @@
   },
   "netbanner.png": {
     "embedding": [
-      14.915464401245117,
-      12.289517402648926,
-      7.753414630889893
+      0.23259510099887848,
+      0.6960023045539856,
+      -0.014325587078928947
     ],
     "filetype": "image",
     "metadata": {
@@ -79,47 +119,122 @@
     "path": "/content/netbanner.png",
     "decorativePath": "/nodes/netbanner.png"
   },
-  "diffusion_frontend_thing.png": {
+  "mirror_banner.png": {
     "embedding": [
-      14.63036060333252,
-      12.334099769592285,
-      8.594539642333984
+      0.6956723928451538,
+      1.4874460697174072,
+      -0.182253897190094
     ],
     "filetype": "image",
     "metadata": {
-      "width": 3272,
-      "height": 2160,
-      "file_size": 2066099
+      "width": 1200,
+      "height": 450,
+      "file_size": 1025508
     },
-    "path": "/content/diffusion_frontend_thing.png",
-    "decorativePath": "/nodes/diffusion_frontend_thing.png"
+    "path": "/content/mirror_banner.png",
+    "decorativePath": "/nodes/mirror_banner.png"
   },
-  "oh_fuck_what_now.png": {
+  "berlin_banner.png": {
     "embedding": [
-      14.884941101074219,
-      11.690106391906738,
-      8.014477729797363
+      0.5614266991615295,
+      0.24733975529670715,
+      0.5840070843696594
     ],
     "filetype": "image",
     "metadata": {
-      "width": 749,
-      "height": 417,
-      "file_size": 653349
+      "width": 1200,
+      "height": 450,
+      "file_size": 612829
     },
-    "path": "/content/oh_fuck_what_now.png",
-    "decorativePath": "/nodes/oh_fuck_what_now.png"
+    "path": "/content/berlin_banner.png",
+    "decorativePath": "/nodes/berlin_banner.png"
+  },
+  "tower_banner.png": {
+    "embedding": [
+      0.5523793697357178,
+      -0.4440463185310364,
+      0.13039857149124146
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 1200,
+      "height": 450,
+      "file_size": 428593
+    },
+    "path": "/content/tower_banner.png",
+    "decorativePath": "/nodes/tower_banner.png"
+  },
+  "mirror.png": {
+    "embedding": [
+      -2.081249713897705,
+      -1.6229091882705688,
+      -0.43799155950546265
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 1200,
+      "height": 757,
+      "file_size": 1639722
+    },
+    "path": "/content/mirror.png",
+    "decorativePath": "/nodes/mirror.png"
+  },
+  "cloud_banner.png": {
+    "embedding": [
+      -0.5616740584373474,
+      -0.6167548298835754,
+      -0.355148047208786
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 1200,
+      "height": 450,
+      "file_size": 535944
+    },
+    "path": "/content/cloud_banner.png",
+    "decorativePath": "/nodes/cloud_banner.png"
+  },
+  "cloud.png": {
+    "embedding": [
+      -0.37917470932006836,
+      0.45171430706977844,
+      0.8919394016265869
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 1200,
+      "height": 800,
+      "file_size": 937248
+    },
+    "path": "/content/cloud.png",
+    "decorativePath": "/nodes/cloud.png"
+  },
+  "pylon_white.png": {
+    "embedding": [
+      0.5581166744232178,
+      0.18335920572280884,
+      1.2119871377944946
+    ],
+    "filetype": "image",
+    "metadata": {
+      "width": 1200,
+      "height": 808,
+      "file_size": 1268316
+    },
+    "path": "/content/pylon_white.png",
+    "decorativePath": "/nodes/pylon_white.png"
   },
   "pylon.png": {
     "embedding": [
-      15.38105297088623,
-      11.729973793029785,
-      8.53232479095459
+      -0.3477845788002014,
+      0.17099174857139587,
+      -0.6538980603218079
     ],
     "filetype": "image",
     "metadata": {
-      "width": 4096,
-      "height": 2730,
-      "file_size": 10697643
+      "width": 1200,
+      "height": 800,
+      "file_size": 1399417
     },
     "path": "/content/pylon.png",
     "decorativePath": "/nodes/pylon.png"
