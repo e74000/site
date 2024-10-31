@@ -23,7 +23,7 @@ const colors = {
   selectionForeground: '#1c1c1c'
 };
 
-module.exports = {
+export default {
   content: [
     './index.html',
     './src/**/*.{svelte,js,ts}',
