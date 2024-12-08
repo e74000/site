@@ -2,9 +2,11 @@
 title: "asteroids"
 date: "2024-12-06"
 template: "post.tmpl"
+meta_description: "relativistic asteroids"
+meta_keywords: "net, e74net, e74000, physics simulation, asteroids, relativity"
 ---
 
-# relativistic asteroids
+# Relativistic Asteroids
 
 I wrote a few small toy program a while ago when I was applying to Oxford (got filtered by the interview lmao ;_;) as part of my personal statement. This is one of those projects.
 

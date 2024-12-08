@@ -2,6 +2,8 @@
 title: "shape rotation"
 date: "2024-12-07"
 template: "post.tmpl"
+meta_description: "hypercube rotator"
+meta_keywords: "net, e74net, e74000, visualizer"
 ---
 
 # Hypercube Rotator

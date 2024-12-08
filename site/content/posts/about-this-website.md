@@ -2,6 +2,8 @@
 title: "about this website"
 date: "2024-12-08"
 template: "post.tmpl"
+meta_description: "about this website"
+meta_keywords: "net, e74net, e74000, about, website, static site generator"
 ---
 
 # About This Website 
