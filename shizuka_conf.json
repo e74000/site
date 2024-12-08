@@ -1,0 +1,5 @@
+{
+  "src": "site",
+  "dst": "dist",
+  "port": "8080"
+}
