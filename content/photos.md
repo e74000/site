@@ -1,5 +1,0 @@
-![[pylon.png]]
-![[pylon_white.png]]
-![[mirror.png]]
-![[tower_banner.png]]
-![[cloud.png]]
