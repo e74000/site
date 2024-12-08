@@ -1,5 +1,5 @@
 ---
-title: "relativistic asteroids"
+title: "asteroids"
 date: "2024-12-06"
 template: "post.tmpl"
 ---
