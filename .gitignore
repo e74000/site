@@ -5,3 +5,6 @@
 .DS_Store
 
 *~
+
+# shizuka build output
+dist/
