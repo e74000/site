@@ -4,6 +4,8 @@ date: "1970-02-03"
 template: "post.tmpl"
 meta_description: "about net"
 meta_keywords: "net, e74net, e74000, about"
+data:
+  Preview: "https://e74000.net/x-card.png"
 ---
 
 # hello!
