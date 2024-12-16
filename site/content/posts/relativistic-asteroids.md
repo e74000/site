@@ -4,6 +4,8 @@ date: "2024-12-06"
 template: "post.tmpl"
 meta_description: "relativistic asteroids"
 meta_keywords: "net, e74net, e74000, physics simulation, asteroids, relativity"
+data:
+  Preview: "https://e74000.net/x-card.png"
 ---
 
 # Relativistic Asteroids
