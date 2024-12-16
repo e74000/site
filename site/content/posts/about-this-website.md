@@ -4,6 +4,8 @@ date: "2024-12-08"
 template: "post.tmpl"
 meta_description: "about this website"
 meta_keywords: "net, e74net, e74000, about, website, static site generator"
+data:
+  Preview: "https://e74000.net/x-card.png"
 ---
 
 # About This Website 
