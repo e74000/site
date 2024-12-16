@@ -35,3 +35,13 @@ When you want to deploy a site, just run:
 ```bash
 shizuka build
 ```
+
+## Hosting
+
+This website is being hosted on Cloudflare pages, and is automatically updated by this repository.
+
+To do this I selected "Custom Framework" and set set the build command to:
+
+```bash
+go run github.com/e74000/shizuka@latest build
+```
