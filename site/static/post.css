@@ -1,11 +1,13 @@
 article {
     font-size: 0.9rem;
+    text-align: justify;
 }
 
 /* Headings */
 article h1, article h2, article h3, article h4, article h5, article h6 {
     color: #ffffff; /* Headings stay white */
     margin: 0.5rem 0; /* Compact spacing */
+    font-size: 1.4rem;
 }
 
 article h1::before {
@@ -62,6 +64,7 @@ article pre {
     border-radius: 0; /* Keep it sharp and minimal */
     overflow-x: auto; /* Allow horizontal scrolling */
     font-size: 0.85rem; /* Slightly smaller for code */
+    text-align: left;
 }
 
 article code {
