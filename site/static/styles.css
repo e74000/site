@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
     --bg-color: #000000;
     --text-color: #ffffff;
@@ -51,9 +53,9 @@ header::before {
 }
 
 .header-title {
-    font-size: 2.5rem;
+    font-size: 2.9rem;
     margin: 0;
-    text-transform: uppercase;
+
     color: var(--text-color);
 }
 
@@ -71,7 +73,7 @@ nav a {
     color: var(--bg-color);
     text-decoration: none;
     padding: 0.2rem 0.5rem;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     font-size: 0.9rem;
     display: inline-block;
 }
@@ -126,30 +128,29 @@ footer a:hover {
 }
 
 .post-list {
+    margin-top: 0;
+    margin-bottom: 0;
     list-style: none;
     padding: 0;
     margin-left: 1rem;
 }
 
 .post-item {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .post-item span {
     color: var(--subtle-color);
-    margin-right: 0.5rem;
     font-size: 0.9rem;
 }
 
 .post-item a {
-    background: var(--accent-color);
-    color: var(--bg-color);
+    color: var(--accent-color);
     text-decoration: none;
-    padding: 0.2rem 0.5rem;
     font-size: 0.9rem;
 }
 
-post-item a:hover {
-    background: var(--text-color);
-    color: var(--bg-color);
+.post-item a:hover {
+    text-decoration: underline;
 }
+
