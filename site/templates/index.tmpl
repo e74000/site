@@ -39,7 +39,7 @@
     <ul class="post-list">
         {{range $post := index .PageMap "/posts"}}
         <li class="post-item">
-            <span> {{ $post.Date}}: </span><a class="post-item" href="{{ $post.Path }}"> {{ $post.Title }}</a>
+            <span> {{ $post.Date}} </span><a class="post-item" href="{{ $post.Path }}"> {{ $post.Title }}</a>
         </li>
         {{end}}
     </ul>
