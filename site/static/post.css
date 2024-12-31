@@ -1,11 +1,13 @@
 article {
     font-size: 0.9rem;
     text-align: justify;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 /* Headings */
 article h1, article h2, article h3, article h4, article h5, article h6 {
-    color: #ffffff; /* Headings stay white */
+    color: var(--text-color);
     margin: 0.5rem 0; /* Compact spacing */
     font-size: 1.4rem;
 }
@@ -47,33 +49,33 @@ article p {
 
 /* Blockquotes */
 article blockquote {
-    margin: 0.8rem 0; /* Smaller vertical spacing */
-    padding: 0.3rem 1rem; /* Compact padding */
-    border-left: 2px solid var(--accent-color); /* Thinner border */
-    background: #111111; /* Subtle background for emphasis */
-    color: var(--subtle-color); /* Subtle text color */
+    margin: 0;
+    padding: 0rem 0.5rem;
+    border-left: 1px solid var(--subtle-color);
+    /* background: var(--subtle-bg-color); */
+    color: var(--text-color);
     font-style: italic;
-    font-size: 0.9rem;
 }
 
-/* Code blocks */
 article pre {
-    background: #111111; /* Subtle background for code blocks */
-    color: var(--accent-color); /* Highlighted text color */
-    padding: 0.5rem; /* Reduced padding */
-    border-radius: 0; /* Keep it sharp and minimal */
-    overflow-x: auto; /* Allow horizontal scrolling */
-    font-size: 0.85rem; /* Slightly smaller for code */
+    background: var(--fg-color);
+    color: var(--accent-color);
+    padding: 0.5rem;
+    border: 1px dotted var(--subtle-color);
+    overflow-x: auto;
     text-align: left;
 }
 
 article code {
-    color: var(--accent-color); /* Highlighted text color */
-    padding: 0.1rem 0.3rem;
-    font-size: 0.85rem; /* Slightly smaller for inline */
-    border-radius: 0; /* No rounded edges */
-    /*white-space: nowrap; !* Prevent wrapping *!*/
+    color: var(--accent-color);
+    padding: 0;
+    margin: 0;
 }
+
+article code:not(pre code) {
+    border: 1px dotted var(--subtle-color);
+}
+
 
 /* Lists */
 article ul, article ol {
@@ -88,41 +90,58 @@ article li {
 /* Links */
 article a {
     color: var(--accent-color);
-    text-decoration: none;
-    border-bottom: 1px solid var(--accent-color); /* Underline effect */
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--subtle-color);
+    
 }
 
 article a:hover {
-    color: #ffffff;
-    border-bottom: 1px solid #ffffff;
-}
-
-/* Tables */
-article table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0;
-}
-
-article th, article td {
-    border: 1px solid #444444;
-    padding: 0.3rem; /* Compact padding for a raw vibe */
-    text-align: left;
-}
-
-article th {
-    background: #111111;
     color: var(--text-color);
-}
-
-article td {
-    background: #000000;
-    color: var(--text-color);
+    text-decoration-color: var(--text-color);
 }
 
 /* Horizontal Rules */
 article hr {
     border: 0;
-    border-top: 1px solid #444444;
+    border-top: 1px dotted var(--subtle-color);
     margin: 1.5rem 0;
+}
+
+/* Tables */
+article table {
+    width: 100%; /* Full width for consistency */
+    border-collapse: collapse; /* No unnecessary gaps */
+    margin: 1rem 0; /* Spacing above and below */
+    border: none; /* Remove outer borders */
+}
+
+article th,
+article td {
+    padding: 0.3rem 0.5rem; /* Subtle spacing for text */
+    border-bottom: 1px dotted var(--subtle-color); /* Delicate, sharp dividers */
+}
+
+article th {
+    font-weight: normal; /* Minimal weight */
+    letter-spacing: 0.05em; /* Subtle spacing for a refined look */
+
+    border-bottom: 1px solid var(--text-color); /* Strong underline for header */
+    color: var(--text-color); /* Neutral tone */
+}
+
+article td {
+    color: var(--text-color); /* Match the text style */
+}
+
+article caption {
+    font-size: 0.8rem; /* Smaller font for the caption */
+    font-style: italic; /* Elegant, subtle emphasis */
+    text-align: right; /* Off-center, asymmetric balance */
+    color: var(--subtle-color); /* Subtle, unobtrusive color */
+}
+
+/* Remove zebra stripes for rows, keep clean consistent rows */
+article tr:last-child td {
+    border-bottom: none; /* No unnecessary bottom line */
 }

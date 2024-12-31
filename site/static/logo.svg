@@ -1,81 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
-   width="26.44381mm"
-   height="16.358389mm"
-   viewBox="0 0 26.44381 16.358389"
-   version="1.1"
-   id="svg1"
-   inkscape:export-filename="logo.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   sodipodi:docname="logo!.svg"
-   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#505050"
-     bordercolor="#ffffff"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1"
-     inkscape:deskcolor="#505050"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="4.2135276"
-     inkscape:cx="47.228835"
-     inkscape:cy="40.820903"
-     inkscape:window-width="1584"
-     inkscape:window-height="947"
-     inkscape:window-x="0"
-     inkscape:window-y="39"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       id="grid1"
-       units="mm"
-       originx="-110.90737"
-       originy="-143.83846"
-       spacingx="2"
-       spacingy="2.0000001"
-       empcolor="#0099e5"
-       empopacity="0.30196078"
-       color="#0099e5"
-       opacity="0.14901961"
-       empspacing="5"
-       enabled="true"
-       visible="false" />
-    <inkscape:page
-       x="0"
-       y="0"
-       width="26.44381"
-       height="16.358389"
-       id="page1"
-       margin="0"
-       bleed="0" />
-  </sodipodi:namedview>
-  <defs
-     id="defs1" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-110.90737,-143.83846)">
+   viewBox="0 0 26.44381 16.358389"
+   width="26.44381mm"
+   height="16.358389mm">
+  <g transform="translate(-110.90737,-143.83846)">
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke-width:0.853001;stroke-linejoin:bevel"
        d="m 126.01803,143.83846 h 11.33315 l -9.44409,16.35839 -7.55619,-5.3e-4 -1.88793,-3.27032 7.55506,-10e-4 5.66658,-9.81492 h -3.77752 z"
-       id="path30"
-       inkscape:export-filename="logo_white"
-       inkscape:export-xdpi="1311.4305"
-       inkscape:export-ydpi="1311.4305" />
+       fill="#ffffff" />
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke-width:0.853001;stroke-linejoin:bevel"
        d="m 110.90737,143.83846 h 11.33257 l 3.77809,6.54347 -1.88903,3.27144 h -7.55563 l -1.88848,-3.27144 h 7.55562 l -1.88961,-3.27202 h -7.55506 z"
-       id="path31" />
+       fill="#ffffff" />
   </g>
 </svg>

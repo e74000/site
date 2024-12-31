@@ -21,6 +21,9 @@ i'm paticularly interested in machine learning, biohacking and cool dashboards
 if you want to drop me a message, my dms are open on twitter, or alternatively you can message `e74000` on discord
 
 you may know me in real life! you can check with this sha256 hash:
+
 ```
-(all lowercase, full name) -> 4e60c1cd7a35f243c2af4d0e4622f7ca695a515277f1ea62666f29bdc142fd1d
+4e60c1cd7a35f243c2af4d0e4622f7ca695a515277f1ea62666f29bdc142fd1d
 ```
+
+(all lowercase, full name)
