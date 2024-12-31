@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --subtle-color: #888888;
+    --subtle-bg-color: #efefef;
+    --invert-value: 1;
+    --accent-color: #000000;
+    --vh: 1vh;
+}
+
+.dark-theme {
     --bg-color: #000000;
     --text-color: #ffffff;
     --subtle-color: #888888;
-    --accent-color: #ff8c00;
+    --subtle-bg-color: #efefef;
+    --invert-value: 0;
+    --accent-color: #ffffff;
     --vh: 1vh;
 }
 
@@ -40,7 +52,8 @@ header::before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: brightness(0.5);
+    filter: brightness(0.53333) invert(var(--invert-value, 0));
+    /* filter: brightness(0.5); */
     z-index: -1;
 }
 
@@ -60,6 +73,7 @@ header::before {
 }
 
 #logo {
+    filter: invert(var(--invert-value, 0));
     width: 50px;
     height: 50px;
 }
@@ -106,6 +120,32 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+footer button {
+    color: var(--subtle-color);
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    display: inline;
+    line-height: 1;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+footer button:hover {
+    text-decoration: underline;
+}
+
+footer button .light,
+footer button .dark {
+    color: var(--subtle-color);
+}
+
+footer button .active {
+    color: var(--text-color);
 }
 
 .bio {
