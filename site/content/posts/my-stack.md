@@ -34,7 +34,7 @@ this is my "personal stack" — a collection of tools, habits, and things i rely
 
 ---
 
-## biological  
+## wetware  
 this isn’t medical advice; it’s just what works for me lol  
 - **NAC (2400mg weekdays):** helps with excoriation disorder and mood stabilization.  
 - **zinc (30mg daily):** offsets NAC’s zinc depletion.  
