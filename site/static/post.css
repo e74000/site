@@ -9,37 +9,38 @@ article {
 article h1, article h2, article h3, article h4, article h5, article h6 {
     color: var(--text-color);
     margin: 0.5rem 0; /* Compact spacing */
-    font-size: 1.4rem;
+    font-size: 0.9rem;
+    font-weight: normal;
 }
 
 article h1::before {
     content: "# "; /* Markdown style */
-    color: var(--accent-color);
+    color: var(--subtle-color);
 }
 
 article h2::before {
     content: "## ";
-    color: var(--accent-color);
+    color: var(--subtle-color);
 }
 
 article h3::before {
     content: "### ";
-    color: var(--accent-color);
+    color: var(--subtle-color);
 }
 
 article h4::before {
     content: "#### ";
-    color: var(--accent-color);
+    color: var(--subtle-color);
 }
 
 article h5::before {
     content: "##### ";
-    color: var(--accent-color);
+    color: var(--subtle-color);
 }
 
 article h6::before {
     content: "###### ";
-    color: var(--accent-color);
+    color: var(--subtle-color);
 }
 
 /* Paragraphs */

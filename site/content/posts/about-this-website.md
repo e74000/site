@@ -8,40 +8,59 @@ data:
   Preview: "https://e74000.net/x-card.png"
 ---
 
-# About This Website 
+# about this website
 
-I built this website using [shizuka](https://github.com/e74000/shizuka), a custom static site generator I wrote. Despite seeming like a pointless amount of effort to go to for making a small personal blog like this, I did this because I found stuff like Hugo and Jekyll annoying to use.
+this website is acting as my personal blog, where i'm going to post more long-form content, as well as interactive programs and stuff.
 
-Shizuka is named after the character from 君のことが大大大大大好きな100人の彼女, on account of being small and doing lots of reading, much like the character.
 
-The aim of writing Shizuka was to make something with the shortest possible installation -> having a site time. For this reason it focuses on extreme simplicity over features. However, a core focus was to ensure that it remains our of the user's way when designing themes or making templates.
 
-The focus on simplicity also means that I should be able to add new features pretty easily, for example embedding interactive programs in posts, nice link previews, etc.
+# how it works
 
-## Try Shizuka!
+i built this website using [shizuka](https://github.com/e74000/shizuka), a custom static site generator i wrote. this is kind of a pointless amount of effort to go to for such a small site, but i was motivated entirely by how much i hated using hugo.
 
-To install shizuka, just run:
+shizuka is named after the character from the anime 君のことが大大大大大好きな100人の彼女, on account of being small and doing lots of reading, much like the character.
+
+the aim of shizuka is to make an ssg with the shortest possible time delta between installation and having a site running. for this reason it focuses on extreme simplicity over actual features. this simplicity goes hand in hand with being pretty generic, so it is pretty easy to add customise to your usecase.
+
+## try shizuka!
+
+to install shizuka, just run:
 
 ```bash
 go install github.com/e74000/shizuka@latest
 ```
 
-You can then scaffold a new project into your current directory with:
+you can then scaffold a new project into your current directory with:
 
 ```bash
 shizuka init
 ```
 
-And then start a development server with:
+and then start a development server with:
 
 ```bash
 shizuka dev
 ```
+aAnd you are done! you can edit files, templates etc and the preview (should) hot-reload as you save.
 
-And you are done! You can edit files, templates etc and the preview (should) hot-reload to preview your site.
-
-When you want to deploy a site, just run:
+when you want to deploy a site, run:
 
 ```bash
 shizuka build
 ```
+
+if you want to use shizuka with a hosting service like [Cloudflare Pages](https://pages.cloudflare.com/) (how this site is hosted) then you can select "custom framework" and set the build command to:
+
+```bash
+go run github.com/e74000/shizuka@latest build
+```
+
+i hope you take some time to try it out! i tried to make it super fast to get started with ([<1min lol](https://x.com/e74net/status/1868395665921102070)) so hopefully you can try it out and let me know what you think!
+
+also if you like shizuka and want to help contribute to it, just make a pull request on github! if you need ideas on what to contribute there's a few different things i want to improve with it:
+
+- RSS integration
+- sitemap.xml
+- better hot-reloading
+- a nicer default theme
+- (maybe a collection of pre-configured themes?)
