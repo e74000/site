@@ -1,14 +1,21 @@
 ---
 title: "asteroids"
+description: "relativistic asteroids clone"
 date: "2024-12-06"
 template: "post.tmpl"
 meta_description: "relativistic asteroids"
 meta_keywords: "net, e74net, e74000, physics simulation, asteroids, relativity"
 data:
   Preview: "https://e74000.net/x-card.png"
+
+sitemap_include: true
+sitemap_change_freq: "monthly"
+sitemap_priority: "0.8"
+
+rss_include: true
 ---
 
-# relativistic Asteroids
+# relativistic asteroids
 
 i wrote a few small toy program a while ago when i was applying to oxford (got filtered by the interview lmao ;_;) as part of my personal statement. this is one of those projects.
 

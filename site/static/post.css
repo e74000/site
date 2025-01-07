@@ -5,16 +5,15 @@ article {
     margin-top: 0;
 }
 
-/* Headings */
 article h1, article h2, article h3, article h4, article h5, article h6 {
     color: var(--text-color);
-    margin: 0.5rem 0; /* Compact spacing */
+    margin: 0.5rem 0;
     font-size: 0.9rem;
     font-weight: normal;
 }
 
 article h1::before {
-    content: "# "; /* Markdown style */
+    content: "# ";
     color: var(--subtle-color);
 }
 
@@ -43,17 +42,14 @@ article h6::before {
     color: var(--subtle-color);
 }
 
-/* Paragraphs */
 article p {
     margin-bottom: 1rem;
 }
 
-/* Blockquotes */
 article blockquote {
     margin: 0;
     padding: 0rem 0.5rem;
     border-left: 1px solid var(--subtle-color);
-    /* background: var(--subtle-bg-color); */
     color: var(--text-color);
     font-style: italic;
 }
@@ -78,17 +74,15 @@ article code:not(pre code) {
 }
 
 
-/* Lists */
 article ul, article ol {
-    margin: 0.8rem 0; /* Compact spacing */
-    padding-left: 1.5rem; /* Indentation for readability */
+    margin: 0.8rem 0;
+    padding-left: 1.5rem;
 }
 
 article li {
     margin-bottom: 0.5rem;
 }
 
-/* Links */
 article a {
     color: var(--accent-color);
     text-decoration: underline;
@@ -102,47 +96,53 @@ article a:hover {
     text-decoration-color: var(--text-color);
 }
 
-/* Horizontal Rules */
 article hr {
     border: 0;
     border-top: 1px dotted var(--subtle-color);
     margin: 1.5rem 0;
 }
 
-/* Tables */
 article table {
-    width: 100%; /* Full width for consistency */
-    border-collapse: collapse; /* No unnecessary gaps */
-    margin: 1rem 0; /* Spacing above and below */
-    border: none; /* Remove outer borders */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    border: none;
 }
 
 article th,
 article td {
-    padding: 0.3rem 0.5rem; /* Subtle spacing for text */
-    border-bottom: 1px dotted var(--subtle-color); /* Delicate, sharp dividers */
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px dotted var(--subtle-color);
 }
 
 article th {
-    font-weight: normal; /* Minimal weight */
-    letter-spacing: 0.05em; /* Subtle spacing for a refined look */
+    font-weight: normal;
+    letter-spacing: 0.05em; 
 
-    border-bottom: 1px solid var(--text-color); /* Strong underline for header */
-    color: var(--text-color); /* Neutral tone */
+    border-bottom: 1px solid var(--text-color); 
+    color: var(--text-color); 
 }
 
 article td {
-    color: var(--text-color); /* Match the text style */
+    color: var(--text-color); 
 }
 
 article caption {
-    font-size: 0.8rem; /* Smaller font for the caption */
-    font-style: italic; /* Elegant, subtle emphasis */
-    text-align: right; /* Off-center, asymmetric balance */
-    color: var(--subtle-color); /* Subtle, unobtrusive color */
+    font-size: 0.8rem; 
+    font-style: italic; 
+    text-align: right; 
+    color: var(--subtle-color); 
 }
 
-/* Remove zebra stripes for rows, keep clean consistent rows */
 article tr:last-child td {
-    border-bottom: none; /* No unnecessary bottom line */
+    border-bottom: none; 
+}
+
+/* General image styling for a minimal brutalist theme */
+article img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 1rem 0; /* Vertical spacing */
+    display: block; /* Ensure block-level alignment */
+    background-color: var(--bg-color); /* Align with the theme's background */
 }

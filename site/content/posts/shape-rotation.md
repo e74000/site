@@ -1,11 +1,18 @@
 ---
 title: "shape rotation"
+description: "rotationg cubes in higher dimensions"
 date: "2024-12-07"
 template: "post.tmpl"
 meta_description: "hypercube rotator"
 meta_keywords: "net, e74net, e74000, visualizer"
 data:
   Preview: "https://e74000.net/x-card.png"
+
+sitemap_include: true
+sitemap_change_freq: "monthly"
+sitemap_priority: "0.8"
+
+rss_include: true
 ---
 
 # hypercube rotator

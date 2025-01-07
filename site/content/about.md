@@ -6,6 +6,12 @@ meta_description: "about net"
 meta_keywords: "net, e74net, e74000, about"
 data:
   Preview: "https://e74000.net/x-card.png"
+
+sitemap_include: true
+sitemap_change_freq: "weekly"
+sitemap_priority: "0.9"
+
+rss_include: false
 ---
 
 # hello!

@@ -1,11 +1,18 @@
 ---
 title: "my stack"  
+description: "my personal stack"
 date: "2025-01-02"  
 template: "post.tmpl"  
 meta_description: "my stack"  
 meta_keywords: "net, e74net, e74000, my stack"  
 data:  
-  Preview: "https://e74000.net/x-card.png"  
+  Preview: "https://e74000.net/x-card.png"
+
+sitemap_include: true
+sitemap_change_freq: "monthly"
+sitemap_priority: "0.8"
+
+rss_include: true
 ---
 
 # my stack  

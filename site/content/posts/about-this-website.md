@@ -1,18 +1,23 @@
 ---
 title: "about this website"
+description: "about e74000.net"
 date: "2024-12-08"
 template: "post.tmpl"
 meta_description: "about this website"
 meta_keywords: "net, e74net, e74000, about, website, static site generator"
 data:
   Preview: "https://e74000.net/x-card.png"
+
+sitemap_include: true
+sitemap_change_freq: "monthly"
+sitemap_priority: "0.8"
+
+rss_include: true
 ---
 
 # about this website
 
 this website is acting as my personal blog, where i'm going to post more long-form content, as well as interactive programs and stuff.
-
-
 
 # how it works
 
