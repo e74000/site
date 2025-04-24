@@ -37,25 +37,22 @@ this is my "personal stack" — a collection of tools, habits, and things i rely
 - *laptop:* 14" m2 macbook air
 - *keyboard:* ZSA Moonlander.  
 - *headphones:* nothing ear (a).  
+- *camera:* Canon EOS 600D
 - *watch:* custom modded Casio F-91W with inverted display and nato strap.  
 - *bike:* Trek Remedy 7 with CushCore tyre inserts.  
 
 ---
 
 ## wetware  
-this isn’t medical advice; it’s just what works for me lol  
-- *NAC (2400mg weekdays):* helps with excoriation disorder and mood stabilization.  
+this isn’t medical advice; it's just what i do
+- *NAC (2400mg weekdays):* helps with mood stabilization.  
 - *zinc (30mg daily):* offsets NAC’s zinc depletion.  
 - *vitamin D:* because winter in the UK sucks lmao.  
 
 past experiments:
 - *magnesium:* didn’t notice much benefit, so i stopped bothering.  
 - *5-methylfolate:* same deal as magnesium.  
-- *phosphatidyl serine:* does help with stress somewhat, but it’s kind of prohibitively expensive for any real benefit.  
-
-future experiments:
-- *D-serine:* this looks very interesting as an NMDA antagonist.  
-
+- *phosphatidyl serine:* does help with stress somewhat, but it’s kind of prohibitively expensive for any real benefit.
 ---
 
 ## psychoware  

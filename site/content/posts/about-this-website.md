@@ -21,9 +21,7 @@ this website is acting as my personal blog, where i'm going to post more long-fo
 
 # how it works
 
-i built this website using [shizuka](https://github.com/e74000/shizuka), a custom static site generator i wrote. this is kind of a pointless amount of effort to go to for such a small site, but i was motivated entirely by how much i hated using hugo.
-
-shizuka is named after the character from the anime 君のことが大大大大大好きな100人の彼女, on account of being small and doing lots of reading, much like the character.
+i built this website using [shizuka](https://github.com/e74000/shizuka), a custom static site generator i wrote. this is kind of a pointless amount of effort to go to for such a small site, but i was motivated entirely by how much i hate hugo.
 
 the aim of shizuka is to make an ssg with the shortest possible time delta between installation and having a site running. for this reason it focuses on extreme simplicity over actual features. this simplicity goes hand in hand with being pretty generic, so it is pretty easy to add customise to your usecase.
 
@@ -62,10 +60,4 @@ go run github.com/e74000/shizuka@latest build
 
 i hope you take some time to try it out! i tried to make it super fast to get started with ([<1min lol](https://x.com/e74net/status/1868395665921102070)) so hopefully you can try it out and let me know what you think!
 
-also if you like shizuka and want to help contribute to it, just make a pull request on github! if you need ideas on what to contribute there's a few different things i want to improve with it:
-
-- RSS integration
-- sitemap.xml
-- better hot-reloading
-- a nicer default theme
-- (maybe a collection of pre-configured themes?)
+also if you like shizuka and want to help contribute to it, just make a pull request on github!
