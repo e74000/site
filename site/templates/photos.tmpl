@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ .MetaDescription }}">
+    <meta name="keywords" content="{{ .MetaKeywords }}">
+    <meta name="author" content="net">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@e74net">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .MetaDescription }}">
+    <meta name="twitter:image" content="{{ index .Data "Preview" }}">
+
+    <link rel="icon" href="/favicon.png" type="image/png">
+    <title>net - {{ .Title }}</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/post.css">
+    <script src="/theme-init.js"></script>
+</head>
+<body>
+<header>
+    <div id="header-content">
+        <img id="logo" src="/logo.svg" alt="site logo">
+        <h1 class="header-title">net</h1>
+    </div>
+    <nav>
+        <a href="/">home</a>
+        <a href="/about">about</a>
+        <a href="/posts">posts</a>
+        <a href="/photos">photos</a>
+    </nav>
+</header>
+<main>
+    <article>
+        {{ .Content }}
+    </article>
+</main>
+<footer>
+    <p>&copy; e74net; built with <a href="https://github.com/e74000/shizuka">shizuka</a>; <button id="theme-toggle"><span class="light">l</span>/<span class="dark">d</span></button></p>
+</footer>
+<script src="/theme-toggle.js"></script>
+</body>
+</html>
