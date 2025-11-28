@@ -10,4 +10,4 @@ sitemap_priority: "1.0"
 rss_include: false
 ---
 
-AxS:002 Divide and Rule. Extensive ((or) ordered) sequences differ in kind from the intensive sequences they regularize.
+AxS:00211 Order coincides with the redundancy of the sequenced sequence (instituted conformity (within segmentary systems)).
