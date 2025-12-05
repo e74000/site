@@ -52,7 +52,7 @@ header::before {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: brightness(0.53333) invert(var(--invert-value, 0));
+    filter: invert(var(--invert-value, 0));
     z-index: -1;
 }
 
@@ -68,13 +68,15 @@ header::before {
     font-size: 2.9rem;
     margin: 0;
 
-    color: var(--text-color);
+    background: var(--accent-color);
+    color: var(--bg-color);
+    font-style: italic;
 }
 
 #logo {
-    filter: invert(var(--invert-value, 0));
-    width: 50px;
-    height: 50px;
+    /* filter: invert(var(--invert-value, 0)); */
+    width: 3.7rem;
+    height: 3.7rem;
 }
 
 nav {

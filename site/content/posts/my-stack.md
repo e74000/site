@@ -17,48 +17,31 @@ rss_include: true
 
 # my stack  
 
-this is my "personal stack" — a collection of tools, habits, and things i rely on to keep myself sane. it's by no means a list of recommendations, just what i happen to use.  
+this is my personal stack. p much just a list of things i use
 
 ---
 
 ## software  
-- *os:* macOS & Arch Linux with i3. macOS is my daily driver, but i have arch on my PC for when i'm feeling particularly bored.  
-- *editor:* primarily goland and micro (i don't actually like micro much, i just cba to move to nvim right now).  
-- *terminal+shell:* kitty with zsh.
-- *organisation:* apple notes/calendar for literally everything lol (my todo list is called '[tu-tu-ru](https://www.youtube.com/watch?v=SVtXKkc2hYo) list').  
-- *notes:* i take notes in obsidian, using the "latex suite" and "extended mathjax" plugins to make my life slightly easier.  
-- *browser:* brave, of course.  
-
-(i'll probably put dotfiles etc up here at some point when i get a chance)
+- *os:* macOS (the voices are telling me to go back to arch+hyprland)
+- *editor:* goland and nvim
+- *terminal+shell:* kitty with zsh+starship.
+- *organisation:* lol, lmao even
+- *notes:* i take notes in obsidian, using the "latex suite" and "extended mathjax" so i can keep up with lectures 
+- *browser:* brave, of course
 
 ---
 
 ## hardware  
 - *laptop:* 14" m2 macbook air
-- *keyboard:* ZSA Moonlander.  
+- *keyboard:* ZSA Moonlander
 - *headphones:* nothing ear (a).  
-- *camera:* Canon EOS 600D
-- *watch:* custom modded Casio F-91W with inverted display and nato strap.  
-- *bike:* Trek Remedy 7 with CushCore tyre inserts.  
+- *camera:* Fujifilm X-T10, Canon EOS 600D
+- *bike:* Trek Remedy 7
 
 ---
 
-## wetware  
-this isn’t medical advice; it's just what i do
-- *NAC (2400mg weekdays):* helps with mood stabilization.  
-- *zinc (30mg daily):* offsets NAC’s zinc depletion.  
-- *vitamin D:* because winter in the UK sucks lmao.  
+## nootropics
+- *NAC (2400mg):* turns out you can almost use this as a antipsychotic lol
+- *zinc:* offsets NAC’s zinc depletion
+- *vitamin D:* bc uk winter sucks
 
-past experiments:
-- *magnesium:* didn’t notice much benefit, so i stopped bothering.  
-- *5-methylfolate:* same deal as magnesium.  
-- *phosphatidyl serine:* does help with stress somewhat, but it’s kind of prohibitively expensive for any real benefit.
----
-
-## psychoware  
-- *music:* i really love techno, especially Tzusing, Panther Modern, and Hiro Kone. i also like lots of other genres, like trip hop, city pop, and dnb/jungle.  
-- *cooking:* i make omurice *possibly* too often. i also enjoy making fajitas and yakiudon. i'm always up for learning to cook new things. banh mi is currently my next goal.
-- *anime:* recently on a sad anime binge (*Your Name,* *A Silent Voice,* *5 Centimeters Per Second*).  
-- *drinks:* i love nice coffee and matcha. i have an aeropress and a proper matcha set for making great drinks.
-- *art:* i have a slight obsession with pylons, so i take lots of photos of pylons, and adjacent stuff (please dm me pictures of pylons lmfao). i also make glitch art. real ones know that i used to make music too.
-- *sports:* i'm a massive adrenaline junkie therefore i really love mountain biking. i also climb frequently, and i want to get back into BMXing at some point.
