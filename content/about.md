@@ -8,7 +8,6 @@ slug = "about"
 [params]
 meta_description = "about net"
 meta_keywords = "net, e74net, e74000, about"
-Preview = "https://e74000.net/x-card.png"
 
 [sitemap]
 include = true

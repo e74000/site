@@ -1,9 +1,6 @@
 title = "net"
 template = "index"
-
-body = """
-AxS:00211 Order coincides with the redundancy of the sequenced sequence (instituted conformity (within segmentary systems)).
-"""
+body = 'AxS:00211 Order coincides with the redundancy of the sequenced sequence (instituted conformity (within segmentary systems)).'
 
 [params]
 nav = [

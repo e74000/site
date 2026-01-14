@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    {{ template "head" . }}
-    <link rel="stylesheet" href="/post.css">
-</head>
-<body>
+    <head>
+        {{ template "head" . }}
+        <link rel="stylesheet" href="/css/post.css">
+    </head>
+    <body>
+        {{ template "header" . }}
 
-{{ template "header" . }}
+        <main>
+            <article>
+                {{ .Page.Body }}
+            </article>
+        </main>
 
-<main>
-    <article>
-        {{ .Page.Body }}
-    </article>
-</main>
-
-{{ template "footer" . }}
-
-</body>
+        {{ template "footer" . }}
+    </body>
 </html>

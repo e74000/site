@@ -1,5 +1,5 @@
 # e74000.net
 
-I built [this website](https://e74000.net) using Shizuka.
+this is my personal website. i made using my own SSG, shizuka.
 
-i hope you like it :)
+you can see the website at [e74000.net](https://e74000.net).

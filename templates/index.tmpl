@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    {{ template "head" . }}
-</head>
-<body>
+    <head>
+        {{ template "head" . }}
+    </head>
+    <body>
+        {{ template "header" . }}
 
-{{ template "header" . }}
+        <main>
+            <p class="bio">AxS:00211 Order coincides with the redundancy of the sequenced sequence (instituted conformity (within segmentary systems)).</p>
+            <p class="post-header">featured posts</p>
+            <ul class="post-list">
+                {{ range .Site.Collections.Featured | sort "Date" "asc" }}
+                    <li class="post-item">
+                        <span>{{ .Date.Format "2006-01-02" }}</span>
+                        <a class="post-item" href="{{ .Canon }}">{{ .Title }}</a>
+                    </li>
+                {{ end }}
+            </ul>
 
-<main>
-    <p class="bio">AxS:00211 Order coincides with the redundancy of the sequenced sequence (instituted conformity (within segmentary systems)).</p>
-    <p class="post-header">featured posts</p>
-    <ul class="post-list">
-        {{ range .Site.Collections.Featured | sort "Date" "asc" }}
-            <li class="post-item">
-                <span>{{ .Date.Format "2006-01-02" }}</span>
-                <a class="post-item" href="{{ .Canon }}">{{ .Title }}</a>
-            </li>
-        {{ end }}
-    </ul>
+            <a class="extra-link" href="/posts">[all posts]</a>
+        </main>
 
-    <a class="extra-link" href="/posts">[all posts]</a>
-</main>
-
-{{ template "footer" . }}
-
-</body>
+        {{ template "footer" . }}
+    </body>
 </html>

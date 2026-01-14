@@ -11,7 +11,7 @@ featured = true
 [params]
 meta_description = "hypercube rotator"
 meta_keywords = "net, e74net, e74000, visualizer"
-Preview = "https://e74000.net/x-card.png"
+meta_title = "net - shape rotation"
 
 [sitemap]
 include = true

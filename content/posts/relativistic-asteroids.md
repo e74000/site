@@ -11,7 +11,7 @@ featured = true
 [params]
 meta_description = "relativistic asteroids"
 meta_keywords = "net, e74net, e74000, physics simulation, asteroids, relativity"
-Preview = "https://e74000.net/x-card.png"
+meta_title = "net - relativistic asteroids"
 
 [sitemap]
 include = true
