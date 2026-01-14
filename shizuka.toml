@@ -1,0 +1,30 @@
+shizuka.version = "0.1.0"
+
+[site]
+title = "net"
+description = "net's blog"
+url = "https://e74000.net"
+params = {
+    title = "e74net"
+}
+
+[build.steps.content]
+default_params = {
+    nav = [
+        {name="home", url="/"},
+        {name="posts", url="/posts"},
+        {name="about", url="/about"}
+    ]
+}
+
+[build.steps.redirects]
+shorten = "/e"
+output = "_redirects"
+
+[build.steps.rss]
+output = "rss.xml"
+sections = ["posts"]
+limit = 50
+
+[build.steps.sitemap]
+output = "sitemap.xml"

@@ -1,0 +1,206 @@
+article {
+    font-size: 0.9rem;
+    text-align: justify;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+    color: var(--text-color);
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+article h1::before {
+    content: "# ";
+    color: var(--subtle-color);
+}
+
+article h2::before {
+    content: "## ";
+    color: var(--subtle-color);
+}
+
+article h3::before {
+    content: "### ";
+    color: var(--subtle-color);
+}
+
+article h4::before {
+    content: "#### ";
+    color: var(--subtle-color);
+}
+
+article h5::before {
+    content: "##### ";
+    color: var(--subtle-color);
+}
+
+article h6::before {
+    content: "###### ";
+    color: var(--subtle-color);
+}
+
+article p {
+    margin-bottom: 1rem;
+}
+
+article blockquote {
+    margin: 0;
+    padding: 0rem 0.5rem;
+    border-left: 1px solid var(--subtle-color);
+    color: var(--text-color);
+    font-style: italic;
+}
+
+article pre {
+    background: var(--fg-color);
+    color: var(--accent-color);
+    padding: 0.5rem;
+    border: 1px dotted var(--subtle-color);
+    overflow-x: auto;
+    text-align: left;
+}
+
+article code {
+    color: var(--accent-color);
+    padding: 0;
+    margin: 0;
+}
+
+article code:not(pre code) {
+    border: 1px dotted var(--subtle-color);
+}
+
+
+article ul, article ol {
+    margin: 0.8rem 0;
+    padding-left: 1.5rem;
+}
+
+article li {
+    margin-bottom: 0.5rem;
+}
+
+article a {
+    color: var(--accent-color);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: var(--subtle-color);
+    
+}
+
+article a:hover {
+    color: var(--text-color);
+    text-decoration-color: var(--text-color);
+}
+
+article hr {
+    border: 0;
+    border-top: 1px dotted var(--subtle-color);
+    margin: 1.5rem 0;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    border: none;
+}
+
+article th,
+article td {
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px dotted var(--subtle-color);
+}
+
+article th {
+    font-weight: normal;
+    letter-spacing: 0.05em; 
+
+    border-bottom: 1px solid var(--text-color); 
+    color: var(--text-color); 
+}
+
+article td {
+    color: var(--text-color); 
+}
+
+article caption {
+    font-size: 0.8rem; 
+    font-style: italic; 
+    text-align: right; 
+    color: var(--subtle-color); 
+}
+
+article tr:last-child td {
+    border-bottom: none; 
+}
+
+/* General image styling for a minimal brutalist theme */
+/*article img {*/
+/*    max-width: 100%; !* Ensure images are responsive *!*/
+/*    height: auto; !* Maintain aspect ratio *!*/
+/*    margin: 1rem 0; !* Vertical spacing *!*/
+/*    display: block; !* Ensure block-level alignment *!*/
+/*    background-color: var(--bg-color); !* Align with the theme's background *!*/
+/*}*/
+
+.gallery {
+    display: grid;
+    gap: 0.5rem;
+    margin: 2.5rem 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.05);
+    transition: transform 0.2s ease;
+}
+
+/* ====== 1 IMAGE ====== */
+.gallery.group-1 {
+    grid-template-columns: 1fr;
+}
+
+/* ====== 2 IMAGES SIDE-BY-SIDE ====== */
+.gallery.group-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* ====== 3 IMAGES (1 large left, 2 stacked right) ====== */
+.gallery.group-3 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.5rem;
+    aspect-ratio: 16 / 9; /* Optional: keeps it balanced across widths */
+}
+
+.gallery.group-3 img:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery.group-3 img:nth-child(2),
+.gallery.group-3 img:nth-child(3) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery.group-3 img:nth-child(2) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.gallery.group-3 img:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}

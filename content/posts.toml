@@ -1,0 +1,16 @@
+title = "posts"
+template = "posts"
+
+[params]
+nav = [
+    {name = "home", url = "/"},
+    {name = "about", url = "/about"},
+]
+meta_description = "net's blog"
+meta_keywords = "net, e74net, e74000, programming, physics, personal blog"
+meta_author = "net"
+
+[sitemap]
+include = true
+changefreq = "weekly"
+priority = 1.0

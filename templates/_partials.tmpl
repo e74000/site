@@ -1,0 +1,42 @@
+{{ define "head" }}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@e74net">
+    <meta name="twitter:title" content="net">
+    <meta name="twitter:description" content="net's blog">
+    <meta name="twitter:image" content="https://e74000.net/x-card.png">
+
+    <link rel="alternate" type="application/rss+xml" title="net's blog rss" href="https://e74000.net/rss.xml">
+
+    <link rel="icon" href="/favicon.png" type="image/png">
+
+    <meta name="description" content="{{ with (index .Page.Params "meta_description") }}{{ . }}{{ else }}{{ $.Page.Description }}{{ end }}">
+    <meta name="keywords" content="{{ with (index .Page.Params "meta_keywords") }}{{ . }}{{ end }}">
+    <meta name="author" content="{{ with (index .Page.Params "meta_author") }}{{ . }}{{ else }}{{ "net" }}{{ end }}">
+    <title>{{ with (index .Page.Params "meta_title") }}{{ . }}{{ else }}{{ $.Page.Title }}{{ end }}</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/scripts/theme-init.js"></script>
+{{ end }}
+
+{{ define "header" }}
+    <header>
+        <div id="header-content">
+            <h1 class="header-title">{{ .Site.Params.title }}</h1>
+        </div>
+        <nav>
+            {{ range .Page.Params.nav }}
+                <a href="{{ .url }}">{{ .name }}</a>
+            {{ end }}
+        </nav>
+    </header>
+{{ end }}
+
+{{ define "footer" }}
+    <footer>
+        <p>&copy; e74net; built with <a href="https://github.com/e74000/shizuka">shizuka</a>; <button id="theme-toggle"><span class="light">l</span>/<span class="dark">d</span></button></p>
+    </footer>
+    <script src="/scripts/theme-toggle.js"></script>
+{{ end }}

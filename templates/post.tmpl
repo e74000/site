@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ template "head" . }}
+    <link rel="stylesheet" href="/post.css">
+</head>
+<body>
+
+{{ template "header" . }}
+
+<main>
+    <article>
+        {{ .Page.Body }}
+    </article>
+</main>
+
+{{ template "footer" . }}
+
+</body>
+</html>

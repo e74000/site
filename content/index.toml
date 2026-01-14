@@ -1,0 +1,20 @@
+title = "net"
+template = "index"
+
+body = """
+AxS:00211 Order coincides with the redundancy of the sequenced sequence (instituted conformity (within segmentary systems)).
+"""
+
+[params]
+nav = [
+    {name = "posts", url = "/posts"},
+    {name = "about", url = "/about"},
+]
+meta_description = "net's blog"
+meta_keywords = "net, e74net, e74000, programming, physics, personal blog"
+meta_author = "net"
+
+[sitemap]
+include = true
+changefreq = "weekly"
+priority = 1.0
