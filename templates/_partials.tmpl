@@ -18,7 +18,7 @@
     <title>{{ with (index .Page.Params "meta_title") }}{{ . }}{{ else }}{{ $.Page.Title }}{{ end }}</title>
 
     <link rel="stylesheet" href="/css/main.css">
-    <script src="/scripts/theme-init.js"></script>
+    <script src="/js/theme-init.js"></script>
 {{ end }}
 
 {{ define "header" }}
@@ -38,5 +38,5 @@
     <footer>
         <p>&copy; <a href="https://x.com/e74net">e74net</a>; built with shizuka; <button id="theme-toggle"><span class="light">l</span>/<span class="dark">d</span></button></p>
     </footer>
-    <script src="/scripts/theme-toggle.js"></script>
+    <script src="/js/theme-toggle.js"></script>
 {{ end }}
