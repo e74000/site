@@ -32,8 +32,9 @@ this is my personal stack. p much just a list of things i use
 - *os:* macOS (the voices are telling me to go back to arch+hyprland)
 - *editor:* zed
 - *terminal+shell:* kitty with zsh+starship.
-- *notes:* currently apple notes
+- *notes:* apple notes
 - *browser:* brave, of course
+- *email:* protonmail
 
 ---
 
