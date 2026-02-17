@@ -24,11 +24,12 @@ include = true
 
 # my stack  
 
-this is my personal stack. p much just a list of things i use
+this post started off as just my software stack, but it has ended up just being a massive list of diff. things i use in my day-to-day
 
 ---
 
-## software  
+## software
+
 - *os:* macOS (the voices are telling me to go back to arch+hyprland)
 - *editor:* zed
 - *terminal+shell:* kitty with zsh+starship.
@@ -36,20 +37,25 @@ this is my personal stack. p much just a list of things i use
 - *browser:* brave, of course
 - *email:* protonmail
 
+i try to dogfood my own software as much as possible. this site was written with my own SSG, shizuka, and I also made tohru, a tool like GNU Stow, for managing configs.[^1]
+
 ---
 
-## hardware  
+## hardware
+
 - *laptop:* 14" m2 macbook air
-- *keyboard:* ZSA Moonlander
-- *headphones:* nothing ear (a).  
-- *camera:* Fujifilm X-T10, Canon EOS 600D
+- *camera:* Fujifilm X-T10
 - *bike:* Trek Remedy 7
-- *car:* 1992 Mitsubishi 3000GT, Red
+- *car:* 1992 Mitsubishi 3000GT, Remedy
 
 ---
 
-## nootropics
-- *NAC (2400mg):* turns out you can almost use this as a antipsychotic lmfao
-- *CoQ10 (100mg):* this stuff is great.
-- *zinc:* offsets NAC’s zinc depletion
-- *vitamin D:* uk winter sucks
+## noots
+
+- *NAC (2400mg):* turns out you can almost use this as a antipsychotic[^2] lmfao
+- *CoQ10 (100mg):* basically free energy
+- *zinc:* offsets zinc depletion from NAC
+- *vitamin D:* actually fuck the uk winter man
+
+[^1]: these are currently only on my doxx acct, will upload them on this github when i get a chance.
+[^2]: ymmv

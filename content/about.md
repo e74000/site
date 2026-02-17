@@ -24,8 +24,6 @@ i'm net (you might also know me from other places as e74000 or e74net). i'm a 3r
 
 you can find me on [twitter](https://x.com/e74net) or [github](https://github.com/e74000)
 
-i mostly write go and python, but i kinda just use whatever really
-
-i'm paticularly interested in machine learning, biohacking and cool dashboards
+i'm an avid photographer, programmer, and mountain biker. i'm also super interested in JDM cars, and i drive a '93 mitsubishi gto.
 
 if you want to drop me a message, my dms are open on twitter, or alternatively you can message `e74000` on discord

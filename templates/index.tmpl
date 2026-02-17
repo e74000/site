@@ -8,7 +8,7 @@
         {{ template "header" . }}
 
         <main>
-            <p class="bio">AxS:00211 Order coincides with the redundancy of the sequenced sequence (instituted conformity (within segmentary systems)).</p>
+            <p class="bio">{{ .Page.Body }}</p>
             <p class="post-header">featured posts</p>
             <ul class="post-list">
                 {{ range .Site.Collections.Featured | sort "Date" "asc" }}
